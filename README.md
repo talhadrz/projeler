@@ -2,4 +2,5 @@
 
 # Bir Örnek Görüntüsü
 
-![image](https://github.com/user-attachments/assets/7c13063e-ef44-4c13-b265-87747a0b4c37)
+![image](https://github.com/user-attachments/assets/96f04abe-4a5a-40d6-8247-362f12719614)
+
