@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projelerim - Talha_Drz</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="Talha_drz.png">
-   <base target="_blank">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="manifest" href="site.webmanifest">
+  <meta charset="UTF-8" />
+  <title>Projelerim</title>
+  <!-- Harici CSS dosyamızı bağlıyoruz -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Projeler</h1>
-        <p>Burada geliştirdiğim projelerle ilgili bilgilere ulaşabilirsiniz.</p>
-    </header>
 
-    <main>
-        <section>
-            <h2>Projeler</h2>
-            <ul>
-                <li>
-                    <h3>Financial CRM</h3>
-                    <p>Bu proje finansal işlemleri takip etmek için geliştirildi. Kullanıcılar gelir ve giderlerini kolayca yönetebilir.</p>
-                    <a href="https://github.com/talhadrz/MyFinancialCrm">GitHub'da Görüntüle</a>
-                </li>
-                <li>
-                    <h3>C# Eğitim Kampı 101 ve 201</h3>
-                    <p>C# diline giriş ve orta seviye eğitim içerikleri barındıran bir projedir.</p>
-                    <a href="https://github.com/talhadrz/C-Sarp-egitim-kampi">GitHub'da Görüntüle</a>
-                </li>
-                <li>
-                    <h3>C# Eğitim Kampı 301</h3>
-                    <p>C# dilinde ileri düzey konuları öğrenmek isteyenler için detaylı bir eğitim projesi.</p>
-                    <a href="https://github.com/talhadrz/c-sharp-egitim-kampi-301">GitHub'da Görüntüle</a>
-                </li>
-                <li>
-                    <h3>Hızlı Okuma ve Yazma Uygulaması</h3>
-                    <p>Bu uygulama, hızlı okuma ve yazma becerilerini geliştirmek için tasarlanmıştır.</p>
-                    <a href="https://github.com/talhadrz/Hizl_okuma_ve_yazma_programi">GitHub'da Görüntüle</a>
-                </li>
-                <li>
-                    <h3>Döviz ofisi</h3>
-                    <p>Bu uygulama, döviz alım-satım işlemlerini kolaylaştırmak için tasarlanmıştır. Anlık kurları XML ile çeker, hesap hareketlerini veri tabanında saklar ve kullanıcıya hızlı işlem yapma imkanı sunar.</p>
-                    <a href="https://github.com/talhadrz/Doviz_Ofisi">GitHub'da Görüntüle</a>
-                </li>
-                <li>
-                    <h3>Film Arşivim</h3>
-                    <p>Bu uygulama, favori filmleri kaydetmek ve izlemek için geliştirilmiştir. Filmleri ekleyebilir, silebilir ve oynatabilirsiniz. Ayrıca tam ekran modu, ses kontrolü ve renk değiştirme gibi özellikler sunar.</p>
-                    <a href="https://github.com/talhadrz/Film_Arsivim/tree/master">GitHub'da Görüntüle</a>
-                </li>
-                <li>
-                    <h3>Passa Parolla</h3>
-                    <p>Bu uygulama, kullanıcıların kelime oyununu oynayarak doğru ve yanlış cevapları takip etmelerini sağlar. Her cevap, ilgili butonun rengini değiştirir ve puanları anlık olarak gösterir.</p>
-                    <a href="https://github.com/talhadrz/Passa_Parolla_ders_projesi/tree/master">GitHub'da Görüntüle</a>
-                </li>
-            </ul>
-        </section>
+  <!-- Üst Kısım (Header) -->
+  <header>
+    <h1>Projelerim</h1>
+    <p>Burada geliştirdiğiniz projeleri listeleyip detaylarına ulaşabilirsiniz.</p>
+  </header>
 
-        <section>
-            <button onclick="window.location.href='https://talhadrz.github.io/'">Ana Sayfaya Dön</button>
-            <button onclick="window.history.back()">Geri Git</button>
+  <!-- Ana İçerik (Main) -->
+  <main>
+    <section class="project-list">
+      <h2>Projeler</h2>
 
-        </section>
-    </main>
+      <!-- Proje Kartı 1 -->
+      <div class="project-card">
+        <h3>Financial CRM</h3>
+        <p>Kullanıcılar için gelişmiş bir müşteri ilişkileri yönetimi projesi.</p>
+        <a href="https://github.com/talhadrz/My_Financial_Crm_ders_projesi">Github Git</a>
+      </div>
 
-    <footer>
-        <p>© 2025 Talha Durmaz. Tüm hakları saklıdır.</p>
-    </footer>
+      <!-- Proje Kartı 2 -->
+      <div class="project-card">
+        <h3>C# Eğitim Kampı 101 ve 201</h3>
+        <p>C# dilinde kapsamlı bir eğitim projesi.</p>
+        <a href="https://github.com/talhadrz/C_Sarp_egitim_kampi">Github Git</a>
+      </div>
+
+      <!-- Proje Kartı 3 -->
+      <div class="project-card">
+        <h3>Passa Parolla Oyunu</h3>
+        <p>Daha ileri seviyede C# eğitim projeleri.</p>
+        <a href="https://github.com/talhadrz/Passa_Parolla_ders_projesi">Github Git</a>
+      </div>
+
+      <!-- Proje Kartı 4 -->
+      <div class="project-card">
+        <h3>Hızlı Okuma ve Yazma Uygulaması</h3>
+        <p>Okuma ve yazma hızınızı artırmak için tasarlanmış bir uygulama.</p>
+        <a href="https://github.com/talhadrz/Hizl_okuma_programi">Github Git</a>
+      </div>
+
+     <!-- Proje Kartı 5 -->
+     <div class="project-card">
+        <h3>C# Eğitim Kampı 201</h3>
+        <p>Daha ileri seviyede C# eğitim projeleri.</p>
+        <a href="https://github.com/talhadrz/c_sharp_egitim_kampi_301">Github Git</a>
+      </div>
+
+       <!-- Proje Kartı 6 -->
+     <div class="project-card">
+        <h3>Döviz Ofis Uygulaması</h3>
+        <p>Form, XML'den döviz kurlarını çekip veritabanını günceller; kullanıcı, yan butonlarla al/sat işlemlerini gerçekleştirir.</p>
+        <a href="https://github.com/talhadrz/Doviz_Ofisi">Github Git</a>
+      </div>
+
+       <!-- Proje Kartı 7 -->
+     <div class="project-card">
+        <h3>Kod Düzelt</h3>
+        <p>GitHubDosyaYonetici: .NET ile dosya işlemleri (yükleme, güncelleme, indirme, senkronizasyon); VS ve token gerekli.</p>
+        <a href="https://github.com/talhadrz/Kod_Duzeltme">Github Git</a>
+      </div>
+
+        <!-- Proje Kartı 8 -->
+     <div class="project-card">
+        <h3>Filim Arşivi Listem</h3>
+        <p>🎬 **Film Arşivim:** C# ve SQL ile film ekleme, silme, YouTube oynatma, ses kontrolü, ileri-geri alma, arayüz özelleştirme.</p>
+        <a href="https://github.com/talhadrz/Film_Arsivim">Github Git</a>
+      </div>
+
+     <!-- Proje Kartı 9 -->
+     <div class="project-card">
+        <h3>Satış & Hareket Yönetimi</h3>
+        <p>**Satış ve Hareket Yöneticisi:** C# & SQL ile ürün, müşteri, satış yönetimi; CRUD işlemleri, güvenli sorgular, hata yönetimi, veri görselleştirme.</p>
+        <a href="https://github.com/talhadrz/Sat_ve_Hareket_Yoneticisi_-_Ders-Projesi">Github Git</a>
+      </div>
+
+     <!-- Proje Kartı 10 -->
+     <div class="project-card">
+        <h3>Sayfaların Kaynak Kodları</h3>
+        <p>Ana Sayfa Ve Projelerim Sayfasının Kodları</p>
+        <a href="https://github.com/talhadrz/projeler">Projelerim Github Git</a>
+        <p></p>
+        <a href="https://github.com/talhadrz/talhadrz.github.io">Ana Sayfa Github Git</a>
+      </div>
+
+      <!-- Sayfa Navigasyon Linkleri -->
+      <div class="nav-links">
+        <a href="https://talhadrz.github.io/">Ana Sayfaya Dön</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Alt Kısım (Footer) -->
+  <footer>
+    <p>© 2025 Taha Durmaz. Tüm hakları saklıdır.</p>
+  </footer>
+
 </body>
 </html>
