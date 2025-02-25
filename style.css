@@ -14,10 +14,12 @@
   
   /* Üst Kısım (Header) */
   header {
-    background-color: #4caf50; /* Yeşil zemin rengi */
-    color: #fff;
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
-    padding: 2rem;
+    padding: 20px;
+    font-size:20px;
+    border-radius: 100px;
   }
   
   header h1 {
@@ -35,72 +37,65 @@
     padding: 0 1rem;
   }
   
-  .project-list {
-    background-color: #fff;
+  .list {
+    background-color: #ffffff;
     padding: 2rem;
     border-radius: 5px;
   }
   
-  .project-list h2 {
+  .list h2 {
     margin-bottom: 1rem;
     color: #333;
   }
   
   /* Proje Kartı */
-  .project-card {
+  .proje {
     border: 1px solid #00ff3c;
     border-radius: 4px;
     padding: 1rem;
     margin-bottom: 1rem;
   }
   
-  .project-card h3 {
+  .proje h3 {
     margin-bottom: 0.5rem;
     color: #333;
   }
   
-  .project-card p {
+  .proje p {
     margin-bottom: 0.5rem;
     color: #555;
   }
-  
   /* Projeye Git Linki */
-  .project-card a {
+  .proje a {
     color: #0080ff;
     text-decoration: none;
     font-weight: bold;
-  }
-  /*.project-card li{
-    color: #12f483;
-    text-decoration: none;
-    font-weight: bold;
-  }*/
-  
-  .project-card a:hover {
+  }  
+  .proje a:hover {
     text-decoration: underline;
   }
-  
+  .proje p{
+    color: #000000;
+  }
   /* Sayfa Navigasyon Linkleri */
-  .nav-links {
+  .button {
     margin-top: 2rem;
   }
-  
-  .nav-links a {
+  .button a {
     margin-right: 1rem;
     color: #22ff00;
     text-decoration: none;
     font-weight: bold;
   }
-  
-  .nav-links a:hover {
+  .button a:hover {
     text-decoration: underline;
   }
-  
   /* Alt Kısım (Footer) */
   footer {
-    background-color: #4caf50;
-    color: #ffffff;
+    background-color: #4CAF50;
+    color: rgb(173, 43, 43);
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 15px;
+    font-size:15px;
+    border-radius: 100px;
   }
